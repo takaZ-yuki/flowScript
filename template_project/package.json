@@ -1,0 +1,20 @@
+{
+  "name": "template_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack -w",
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.62.0",
+    "flow-status-webpack-plugin": "^0.1.7",
+    "webpack": "^3.10.0"
+  }
+}
